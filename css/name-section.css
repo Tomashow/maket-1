@@ -1,0 +1,25 @@
+.name {
+  background-color: #32697d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.name__title {
+  text-align: center;
+  padding: 1rem 0rem;
+  color: #ffffff;
+  font-size: 4rem;
+  display: inline-block;
+  border-top: solid 3px #9cb4be;
+  border-bottom: solid 3px #9cb4be;
+}
+
+.name__text {
+  text-align: center;
+  color: #c4d2d8;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,56 @@
+.introduction {
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.introduction__container {
+  display: flex;
+  width: 73%;
+  margin: 3.5rem 0rem;
+}
+
+.introduction__right {
+  width: 60%;
+}
+
+.introduction__title {
+  font-size: 1.2rem;
+  font-style: bold;
+  padding-bottom: 3.5rem;
+  text-align: center;
+}
+
+.introduction__text {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.hire-button {
+  color: white;
+  width: 200px;
+  height: 48px;
+  background-color: #ff2b4a;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button a {
+  color: white;
+}
+
+.button:hover {
+  background: #d11f1f;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+  .introduction__left {
+    display: none;
+  }
+  .introduction__right {
+    width: 100%;
+    text-align: justify;
+  }
+}

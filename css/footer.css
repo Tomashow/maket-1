@@ -1,0 +1,58 @@
+footer {
+  background-color: #222222;
+  padding-top: 3.5rem;
+}
+
+.footer__socials {
+  margin-bottom: 1.2rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-twitter {
+  color: red;
+}
+
+.fa-twitter:hover {
+  opacity: 0.5;
+}
+
+.fa-linkedin {
+  color: grey;
+}
+
+.fa-linkedin:hover {
+  opacity: 0.5;
+}
+
+.fa-behance {
+  color: grey;
+}
+
+.fa-behance:hover {
+  opacity: 0.5;
+}
+
+.fa-dribbble {
+  color: grey;
+}
+
+.fa-dribbble:hover {
+  opacity: 0.5;
+}
+
+.verticalline {
+  width: 2px;
+  display: inline-block;
+  background: grey;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.footer__text {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #7f7f7f;
+  padding-bottom: 3.6rem;
+}
