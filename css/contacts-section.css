@@ -88,7 +88,7 @@ input[type="submit"]:hover {
   color: #d5d8dd;
   line-height: 1.5;
 }
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (max-width: 767px) {
   .contact {
     display: flex;
     flex-direction: column;

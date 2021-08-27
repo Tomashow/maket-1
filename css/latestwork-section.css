@@ -19,7 +19,7 @@
   grid-column-end: 3;
 }
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (max-width: 767px) {
   .latestwork {
     padding: 3rem 0rem;
   }
@@ -30,6 +30,6 @@
   }
   .card--grid-medium {
     display: flex;
-    width: 270px;
+    width: 100%;
   }
 }
