@@ -30,6 +30,6 @@
   }
   .card--grid-medium {
     display: flex;
-    width: 100%;
+    flex-basis: 100%;
   }
 }
